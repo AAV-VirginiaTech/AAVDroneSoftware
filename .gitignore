@@ -25,3 +25,6 @@ AAVWORKSPACE/Micro-XRCE-DDS-Gen/
 
 #Terrain
 AAVWORKSPACE/terrain/
+
+#Random logs
+AAVWORKSPACE/logs/
