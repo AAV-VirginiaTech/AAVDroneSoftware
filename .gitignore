@@ -28,3 +28,13 @@ AAVWORKSPACE/terrain/
 
 #Random logs
 AAVWORKSPACE/logs/
+
+#Simulation Generated Folders
+AAVWORKSPACE/src/ardupilot/
+AAVWORKSPACE/src/ardupilot_gazebo/
+AAVWORKSPACE/src/ardupilot_gz/
+AAVWORKSPACE/src/ardupilot_sitl_models/
+AAVWORKSPACE/src/sdformat_urdf
+AAVWORKSPACE/src/micro_ros_agent/
+AAVWORKSPACE/src/ros_gz/
+
