@@ -3,38 +3,36 @@
 __pycache__/
 
 # ROS / colcon outputs
-AAVWORKSPACE/build/
-AAVWORKSPACE/install/
-AAVWORKSPACE/log/
+aav_ws/build/
+aav_ws/install/
+aav_ws/log/
 
 # Potential mistake of doing colcon build in src folder
-AAVWORKSPACE/src/build/
-AAVWORKSPACE/src/install/
-AAVWORKSPACE/src/log/
+aav_ws/src/build/
+aav_ws/src/install/
+aav_ws/src/log/
 
 # MAVLink logs
 *.tlog
 *.tlog.raw
 
 # EEPROM / params
-AAVWORKSPACE/eeprom.bin
-AAVWORKSPACE/mav.parm
+aav_ws/eeprom.bin
+aav_ws/mav.parm
 
 #Micro DDS
-AAVWORKSPACE/Micro-XRCE-DDS-Gen/
-
+aav_ws/Micro-XRCE-DDS-Gen/
 #Terrain
-AAVWORKSPACE/terrain/
+aav_ws/terrain/
 
 #Random logs
-AAVWORKSPACE/logs/
+aav_ws/logs/
 
 #Simulation Generated Folders
-AAVWORKSPACE/src/ardupilot/
-AAVWORKSPACE/src/ardupilot_gazebo/
-AAVWORKSPACE/src/ardupilot_gz/
-AAVWORKSPACE/src/ardupilot_sitl_models/
-AAVWORKSPACE/src/sdformat_urdf
-AAVWORKSPACE/src/micro_ros_agent/
-AAVWORKSPACE/src/ros_gz/
-
+aav_ws/src/ardupilot/
+aav_ws/src/ardupilot_gazebo/
+aav_ws/src/ardupilot_gz/
+aav_ws/src/ardupilot_sitl_models/
+aav_ws/src/sdformat_urdf
+aav_ws/src/micro_ros_agent/
+aav_ws/src/ros_gz/
