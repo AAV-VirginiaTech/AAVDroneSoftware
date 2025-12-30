@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='carter',
     maintainer_email='carterhawkins93@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Software for AAV Drone',
+    license='GPL-3.0',
     extras_require={
         'test': [
             'pytest',

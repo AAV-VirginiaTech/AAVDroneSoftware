@@ -3,9 +3,9 @@
 <package format="3">
   <name>aav_software</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="carterhawkins93@gmail.com">carter</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Software for AAV Drone</description>
+  <maintainer email="carterhawkins@vt.edu">carter</maintainer>
+  <license>GPL-3.0</license>
 
   <depend>rclpy</depend>
 
