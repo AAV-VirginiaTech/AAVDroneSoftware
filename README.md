@@ -37,5 +37,8 @@ If you're using GitHub Codespaces, to view the RQT_GRAPH, perform the following:
 6. Once you see the "noVNC" logo, click the "Connect" button to open the desktop.
 7. The RQT_GRAPH will be visible in the desktop (if you've started the RQT_GRAPH).
 
-## Run Simulation
+## Setup and Run Simulation
 [Follow Slideshow Tutorial](https://docs.google.com/presentation/d/1nkopkXmOMbf2FSYXp7-02WSqbt8vuJUTEI2T_HQRqNE/edit?usp=sharing)
+
+## Setup Drone
+[Follow Slideshow Tutorial](https://docs.google.com/presentation/d/1RjGnmdPsTrMh_nokPCGsJA6VWc1nO-TS1V9CDui4KNo/edit?usp=sharing)
