@@ -17,6 +17,20 @@ install(DIRECTORY
 )
 
 
+install(DIRECTORY
+  aav_worlds
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+
+install(DIRECTORY
+  aav_yolo_models
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+
+
+
 
 
 ament_package()

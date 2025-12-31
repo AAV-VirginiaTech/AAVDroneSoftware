@@ -76,7 +76,7 @@ def generate_launch_description():
         ),
         launch_arguments={
             "gz_args": "-v4 -s -r "
-            f'{Path(aav_bringup) / "launch" / "aav_worlds" / "aav_runway.sdf"}'
+            f'{Path(aav_bringup) / "aav_worlds" / "aav_runway.sdf"}'
         }.items(),
     )
 
