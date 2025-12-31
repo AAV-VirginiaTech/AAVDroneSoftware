@@ -95,6 +95,25 @@ def generate_launch_description():
         condition=IfCondition(LaunchConfiguration("rviz")),
     )
 
+    # YOLO.
+    yolo = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            [
+                PathJoinSubstitution(
+                    [
+                        FindPackageShare("yolo_bringup"),
+                        "launch",
+                        "yolo.launch.py",
+                    ]
+                ),
+            ]
+        ),
+        launch_arguments={
+            "model": "/home/carter/aavDroneSoftware/aav_ws/src/aav_bringup/aav_yolo_models/basic.pt",
+            "input_image_topic": "/camera/image",
+        }.items(),
+    )
+
     return LaunchDescription(
         [
             DeclareLaunchArgument(
@@ -104,5 +123,6 @@ def generate_launch_description():
             gz_sim_gui,
             iris,
             rviz,
+            yolo,
         ]
     )
