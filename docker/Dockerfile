@@ -5,8 +5,7 @@ RUN apt update && apt install -y --no-install-recommends \
     xauth \
     snapd \
     python3-colcon-common-extensions \
-    python3-pip \
-    ros-humble-ardupilot-msgs
+    python3-pip
 
 RUN echo root:robotics | chpasswd
 
@@ -19,6 +18,8 @@ RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config && \
 RUN echo "Port 2201" >> /etc/ssh/sshd_config
 
 RUN mkdir -p /root/dev/aav
+
+RUN git clone --recurse-submodules https://github.com/ArduPilot/ardupilot.git /root/dev/aav/ardupilot
 
 COPY ssh_entry.sh /root/.bash_profile
 COPY ros_bashrc.sh /root/ros_bashrc.sh
