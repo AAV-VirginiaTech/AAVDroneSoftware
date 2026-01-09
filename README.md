@@ -2,6 +2,9 @@
 
 This was inspired by a Duke Robotics Repo linked [HERE](https://github.com/DukeRobotics/turtlesim-ros2-public) 
 
+## RQT Graph Diagram
+[View Diagram Here](https://miro.com/app/board/uXjVIjMwI14=/?focusWidget=3458764645715611275)
+
 ## Overview
 This repository serves as the main development environment for the AAV Drone
 
