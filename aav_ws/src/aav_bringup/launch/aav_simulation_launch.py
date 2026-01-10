@@ -114,6 +114,28 @@ def generate_launch_description():
         }.items(),
     )
 
+# Add AAV Software nodes you want to launch here
+
+    location_logger = Node(
+        package="aav_software",
+        executable="location_logger",
+    )
+
+    manavs_magic_code = Node(
+        package="aav_software",
+        executable="manavs_magic_code",
+    )
+    
+    object_alignment_controller = Node(
+        package="aav_software",
+        executable="object_alignment_controller",
+    )
+    
+    topic_converter = Node(
+        package="aav_software",
+        executable="topic_converter",
+    )
+
     return LaunchDescription(
         [
             DeclareLaunchArgument(
@@ -124,5 +146,9 @@ def generate_launch_description():
             iris,
             rviz,
             yolo,
+            location_logger,
+            manavs_magic_code,
+            object_alignment_controller,
+            topic_converter,
         ]
     )
