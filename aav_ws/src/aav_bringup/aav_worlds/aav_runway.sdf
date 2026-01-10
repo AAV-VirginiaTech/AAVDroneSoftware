@@ -34,12 +34,12 @@
     <magnetic_field>5.5644999999999998e-06 2.2875799999999999e-05 -4.2388400000000002e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
     <include>
-      <uri>file:///home/carter/aavDroneSoftware/aav_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway</uri>
+      <uri>model://runway</uri>
       <name>runway</name>
       <pose>-29 545 0 0 0 0.052359877559829959</pose>
     </include>
     <include>
-      <uri>file:///home/carter/aavDroneSoftware/aav_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_gimbal</uri>
+      <uri>model://iris_with_gimbal</uri>
       <name>iris</name>
       <pose>0.0056639609519871358 0.02728326171739023 0.19499949968633812 5.3976438366964982e-07 2.3023928739210362e-06 1.5874683047939151</pose>
     </include>
